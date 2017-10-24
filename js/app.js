@@ -20,6 +20,13 @@ Enemy.prototype.update = function(dt) {
     } else {
       this.x = -90;
     }
+
+    //Best I could come up with for handling collisions... there has to be a better way!
+    if (this.x < player.x + 30 && this.x + 60 > player.x && this.y < player.y + 60 && this.y + 40 > player.y) {
+		  score = 0;
+		  document.getElementById('score').innerHTML = score;
+		  player.reset();
+    }
 };
 
 // Draw the enemy on the screen, required method for game
@@ -70,7 +77,6 @@ Player.prototype.render = function() {
 };
 
 var score = 0;
-
 
 // Now instantiate your objects.
 var e1 = new Enemy(0, 50);
