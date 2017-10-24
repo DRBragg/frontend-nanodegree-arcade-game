@@ -1,6 +1,16 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This is my submission for the Frontend Nanodegree from Udacity.  I learned a lot about object oriented JavaScript and had a lot of fun building it.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+My daughter, Joella, enjoyed helping me pick the character and asked me a lot of questions about the code.  It was a great way to ensure I knew what I was doing.
+
+To play, clone this repo and visit the index page locally. Using the arrow keys try to move the princess to the water without hitting any bugs.
+
+If you are successful your score will go up by one and you will be moved back to the beginning.
+
+Try to get the highest score you can.
+
+If you get hit by a bug your score will reset to zero.
+
+Enjoy!
